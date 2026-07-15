@@ -27,4 +27,4 @@ jobs:
         run: flake8 src tests
 
       - name: Run pytest
-        run: pytest
+        run: python -m pytest
